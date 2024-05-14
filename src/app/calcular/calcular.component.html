@@ -2,7 +2,7 @@
 <h1>Calcular pago por consumo</h1>
 <div>
 <p>Ingrese consumo:</p>
-<input type="text"   [(ngModel)]="consumo" class="form-control" placeholder="monto" />
+<input type="text"   [(ngModel)]="producto.pago" class="form-control" placeholder="monto" />
 <button (click)="calcularPago()" class="btn btn-primary" >Calcular</button>
 <p>Total a pagar: </p>
 <p>{{pago}}--</p>
