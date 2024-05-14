@@ -1,3 +1,6 @@
+/*export interface Producto {
+   pago: number;
+}*/
 export class Producto {
-   public pago!: number;
+  pago!: number;
 }

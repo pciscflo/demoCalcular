@@ -9,7 +9,8 @@ import { Producto } from '../model/producto';
 export class CalcularComponent implements OnInit {
   pago: number = 0
   consumo: any = 0
-  producto: Producto = new Producto;
+  //producto: Producto = { pago:0 }; //iterface
+  producto: Producto = { pago : 0 }; //new Pago()
   ngOnInit(): void {
      this.consumo = "";
   }
